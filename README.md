@@ -2,6 +2,8 @@
 
 Dashboard application for visualising and comparing International Baccalaureate (IB) examination results in Dartford Grammar School across subjects and years 2023 to 2024. Built using PyQt6-WebEngine framework.
 
+---
+
 ## Features
 
 - **Grade Distribution by Subject**: Compare grade distributions for a specific subject between 2023 and 2024.
@@ -12,10 +14,14 @@ Dashboard application for visualising and comparing International Baccalaureate 
 - **School vs Worldwide Comparison**: Compare school performance against global averages for a selected year.
 - **Specific Subject Comparisons**: Compare two subjects in the same year or track a subject across years.
 
+---
+
 ## Prerequisites
 
 - Python 3.9+
 - Libraries: `PyQt6`, `pandas`, `numpy`, `plotly`, `seaborn`, `matplotlib`, `PyQt6-WebEngine`
+
+---
 
 ## Installation
 
@@ -25,6 +31,8 @@ Dashboard application for visualising and comparing International Baccalaureate 
    pip install PyQt6 pandas numpy plotly seaborn matplotlib PyQt6-WebEngine
    ```
 3. Place your CSV files (`data2023.csv` and `data2024.csv`) in the project directory.
+
+---
 
 ## Usage
 
@@ -36,6 +44,8 @@ python "main.py"
 - Select a visualisation type from the dropdown.
 - Adjust input parameters (e.g., subjects, years) as needed.
 - Click **Generate Visualisation** to render the plot.
+
+---
 
 ## Screenshots
 
@@ -66,6 +76,8 @@ python "main.py"
 7. **Subject Specific Comparisons**
    ![Specific](images/specific.png)
    *Two bar charts or a grouped bar chard showing the grades of two subjects in the same year, or       the same subject in two years.*
+
+---
 
 ## License
 
